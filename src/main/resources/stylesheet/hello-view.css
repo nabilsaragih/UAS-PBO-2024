@@ -1,0 +1,35 @@
+.root {
+    -fx-font-family: "Poppins";
+    -fx-background-color: white;
+}
+
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #2A2C30;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-text-fill: #D3D3D3;
+    -fx-cursor: hand;
+}
+
+.text-field {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.table-view {
+    -fx-border-radius: 5;
+}
+
+#cbJenisObat:hover, #dtExpired:hover, .radio-button:hover {
+    -fx-cursor: hand;
+}

@@ -1,0 +1,55 @@
+.root {
+    -fx-font-family: "Poppins";
+    -fx-background-color: white;
+}
+
+#lblTitle {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
+
+#lblUsername, #lblPassword {
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #333333;
+}
+
+#lblRegister {
+    -fx-text-fill: #FF5F1F;
+}
+
+#lblRegister:hover {
+    -fx-cursor: hand;
+    -fx-underline: true;
+    -fx-text-fill: #CC5500;
+}
+
+#lblLupa {
+    -fx-text-fill: #FF5F1F;
+}
+
+#lblLupa:hover {
+    -fx-cursor: hand;
+    -fx-underline: true;
+    -fx-text-fill: #CC5500;
+}
+
+.button {
+    -fx-background-color: #2A2C30;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-text-fill: #D3D3D3;
+    -fx-cursor: hand;
+}
+
+.text-field {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}

@@ -1,0 +1,20 @@
+.root {
+    -fx-font-family: "Poppins";
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: #2A2C30;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-text-fill: #D3D3D3;
+    -fx-cursor: hand;
+}
+
+#lblTitle {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
